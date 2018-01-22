@@ -1,0 +1,24 @@
+{
+  "name": "kamora-starter",
+  "version": "1.0.0",
+  "description": "kamora 模板项目",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "./node_modules/.bin/nodemon --harmony index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "kamora": "^0.2.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
